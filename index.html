@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">MyPortfolio</div>
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Hi, I'm <span>Your Name</span></h1>
+    <p>Web Developer | Designer | Creator</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-img">
+    <img src="https://via.placeholder.com/300" alt="Profile">
+  </div>
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who loves building responsive and user-friendly websites. This portfolio was built as a practice project following a step-by-step HTML/CSS/JS tutorial.</p>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Responsive Design</div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h2>My Projects</h2>
+  <div class="portfolio-container">
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x200" alt="Project 1">
+      <h3>Project One</h3>
+    </div>
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x200" alt="Project 2">
+      <h3>Project Two</h3>
+    </div>
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x200" alt="Project 3">
+      <h3>Project Three</h3>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

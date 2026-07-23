@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="#" class="logo">Port<span>folio</span></a>
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h4>Hello, I'm</h4>
+    <h1>Muhammad Aiman bin Mohd Amin</h1>
+    <h3>Designer</h3>
+    <p>I am a student with experience in poster design, basic coding, and image editing.</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="profile.png" alt="Your Photo" class="profile-img">
+  </div>
+  <div class="about-content">
+    <h2>About <span>Me</span></h2>
+    <p>I am a success-driven individual who seeks internship opportunities in the field of Creative Multimedia, hoping to serve a progressive organization in which my skills and abilities will be utilized at its best.</p>
+    <a href="#" class="btn">Read More</a>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <h2>My <span>Skills</span></h2>
+  <div class="skills-container">
+    <div class="skill-card">
+      <h3>HTML5</h3>
+      <p>Structuring web content with semantic markup.</p>
+    </div>
+    <div class="skill-card">
+      <h3>CSS3</h3>
+      <p>Styling responsive, modern user interfaces.</p>
+    </div>
+    <div class="skill-card">
+      <h3>JavaScript</h3>
+      <p>Building interactive and dynamic web features.</p>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2>My <span>Projects</span></h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <img src="project1.png" alt="Porsche GT3 RS poster" class="project-img">
+      <h3>Porsche GT3 RS</h3>
+      <p>Automotive poster design and digital editing.</p>
+    </div>
+    <div class="project-card">
+      <img src="project2.png" alt="Nissan Skyline GT-R R34 poster" class="project-img">
+      <h3>Nissan Skyline GT-R R34</h3>
+      <p>Automotive poster design and digital editing.</p>
+    </div>
+    <div class="project-card">
+      <img src="project3.png" alt="Video Editing service poster" class="project-img">
+      <h3>Video Editing Service</h3>
+      <p>Promotional poster for video editing services.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact <span>Me</span></h2>
+  <form id="contact-form">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+    </div>
+    <div class="input-box">
+      <textarea name="message" cols="30" rows="6" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <p id="form-status"></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
